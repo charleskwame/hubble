@@ -8,29 +8,32 @@
     <title>Document</title>
 </head>
 <body class="overflow-x-hidden">
-    <div style="background-image: url('./images/bg-hero-mobile.svg');" class="py-10 bg-[#EDFBFE] bg-no-repeat">
+    <div style="background-image: url('./images/bg-hero-mobile.svg');" class="py-10 bg-[#EDFBFE] bg-no-repeat lg:py-5">
         <header class="flex items-center justify-between mx-5">
             <img src="./images/logo.svg" alt="logo" class="w-36 overflow-hidden">
      
-            <a href="#" class="rounded-full bg-white drop-shadow-sm px-4 py-1 text-xs font-semibold">
+            <a href="#" class="rounded-full bg-white drop-shadow-sm px-4 py-1 text-sm font-semibold">
                 Try It Free
             </a>
         </header> 
      
-        <main class="mt-24 mx-5">
-            <section class="grid place-items-center gap-8">
+        <main class="mt-24 mx-5 lg:mt-12">
+            <section class="lg:flex lg:items-center lg:gap-3">
                 <!-- hero section -->
-                 <h2 class="font-bold text-3xl leading-10 text-center text-[#012830]">
-                     Build The Community Your Fans Will Love
-                 </h2>
-      
-                 <p class="text-center">
-                     Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
-                 </p>
-     
-                 <a href="#" class="rounded-full bg-[#FE52C0] px-8 py-2 w-fit text-white text-sm font-semibold">
-                     Get Started For Free
-                 </a>
+                <div class="grid place-items-center gap-4 lg:place-items-start lg:gap-5">
+                    <h2 class="font-bold text-3xl leading-10 text-center text-[#012830] lg:text-left">
+                        Build The Community Your Fans Will Love
+                    </h2>
+         
+                    <p class="text-center lg:text-left">
+                        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+                    </p>
+        
+                    <a href="#" class="rounded-full bg-[#FE52C0] px-8 py-2 w-fit text-white text-sm font-semibold">
+                        Get Started For Free
+                    </a>
+                </div>
+                
      
                  
                  <div class="px-10 py-5">
@@ -44,46 +47,55 @@
 
        <section class="pt-16 grid gap-10">
             <!-- features -->
-            <div class="bg-white drop-shadow-md rounded-xl mx-5 py-12 px-10">
-                <img src="./images/illustration-grow-together.svg" alt="illustration-grow-together">
+            <div class="bg-white drop-shadow-md rounded-xl mx-5 py-12 px-10 lg:flex lg:flex-row-reverse lg:gap-10 lg:justify-evenly">
+                <img src="./images/illustration-grow-together.svg" alt="illustration-grow-together" class="lg:w-1/4">
 
-                <h4 class="text-center pt-12 font-semibold text-xl text-[#012830]">
-                    Grow Together
-                </h4>
-
-                <p class="text-center pt-4 text-[#8D9298]">
-                    Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
-                </p>
+                <div class="lg:w-2/4">
+                    <h4 class="text-center pt-12 font-semibold text-xl text-[#012830] lg:text-left">
+                        Grow Together
+                    </h4>
+    
+                    <p class="text-center pt-4 text-[#8D9298] lg:text-left">
+                        Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
+                    </p>
+                </div>
+                
             </div>
 
 
-            <div class="bg-white drop-shadow-md rounded-xl mx-5 py-12 px-10">
-                <img src="./images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation">
+            <div class="bg-white drop-shadow-md rounded-xl mx-5 py-12 px-10 lg:flex lg:flex-row lg:gap-10 lg:justify-evenly">
+                <img src="./images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" class="lg:w-1/4">
 
-                <h4 class="text-center pt-12 font-semibold text-xl text-[#012830]">
-                    Flowing Conversations
-                </h4>
-
-                <p class="text-center pt-4 text-[#8D9298]">
-                    You wouldn't paginate a conversation in real life, so why do it online? Our threads have just in time loading for a natural flow.
-                </p>
+                <div class="lg:w-2/4">
+                    <h4 class="text-center pt-12 font-semibold text-xl text-[#012830] lg:text-left">
+                        Flowing Conversations
+                    </h4>
+    
+                    <p class="text-center pt-4 text-[#8D9298] lg:text-left">
+                        You wouldn't paginate a conversation in real life, so why do it online? Our threads have just in time loading for a natural flow.
+                    </p>
+                </div>
+                
             </div>
 
 
-            <div class="bg-white drop-shadow-md rounded-xl mx-5 py-12 px-10">
-                <img src="./images/illustration-your-users.svg" alt="illustration-your-users">
+            <div class="bg-white drop-shadow-md rounded-xl mx-5 py-12 px-10 lg:flex lg:flex-row-reverse lg:gap-10 lg:justify-evenly">
+                <img src="./images/illustration-your-users.svg" alt="illustration-your-users" class="lg:w-1/4">
 
-                <h4 class="text-center pt-12 font-semibold text-xl text-[#012830]">
-                    Your Users
-                </h4>
-
-                <p class="text-center pt-4 text-[#8D9298]">
-                    It takes no time at all to integrate Huddle with your app's authenticattion solution. This means, once signed in to your app, your users can start chatting immediately.
-                </p>
+                <div class="lg:w-2/4">
+                    <h4 class="text-center pt-12 font-semibold text-xl text-[#012830] lg:text-left">
+                        Your Users
+                    </h4>
+    
+                    <p class="text-center pt-4 text-[#8D9298] lg:text-left">
+                        It takes no time at all to integrate Huddle with your app's authenticattion solution. This means, once signed in to your app, your users can start chatting immediately.
+                    </p>
+                </div>
+               
             </div>
        </section>
 
-       <section class="rounded-xl drop-shadow-md px-10 py-10 mx-4 mt-32 bg-white grid gap-5 place-items-center">
+       <section class="rounded-xl drop-shadow-md px-10 py-10 mx-4 mt-32 bg-white grid gap-5 place-items-center lg:w-max lg:mx-auto">
            <!-- card -->
            <h4 class="text-[#012830]">
                Ready To Build Your Community?
@@ -96,8 +108,8 @@
    </main>
 
 
-   <footer class="bg-[#00252E] mt-10 pb-10 px-6">
-       <div class="pt-16 grid gap-5">
+   <footer class="bg-[#00252E] mt-10 pb-10 px-6 lg:flex lg:items-center lg:justify-around">
+       <div class="pt-16 grid gap-5 lg:w-2/5">
            <!-- additional information -->
            
 
@@ -129,7 +141,7 @@
            </div>
        </div>
 
-       <nav class="flex flex-col gap-3 pt-10 w-fit">
+       <nav class="flex flex-col gap-3 pt-10 w-fit lg:grid lg:grid-cols-2">
            <a href="#" class="text-white text-sm">
               About Us 
            </a>
